@@ -131,6 +131,7 @@ The server must implement the following interface functionalities:
 | result.list.supplier | string | mcp supplier 
 | result.list.submitter | string | mcp submitter 
 | result.list.gitStarCount | number | mcp git star count
+| result.list.detailPageUrl | string | detail Page URL 
 | result.serverCategories | array | mcp category list
 | result.serverCategories.id | number | mcp category id
 | result.serverCategories.name | string | mcp category name
@@ -155,7 +156,8 @@ Success response:
           "source": 2,
           "supplier": "modelcontextprotocol",
           "submitter": "admin",
-          "gitStarCount": 46612
+          "gitStarCount": 46612,
+          "detailPageUrl": "xxx"
         }
       ],
   "serverCategories": [
